@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/rapp11.git/static/css/main.e1ecb8b5.css",
-    "main.js": "/rapp11.git/static/js/main.edc0aa21.js",
-    "index.html": "/rapp11.git/index.html",
-    "main.e1ecb8b5.css.map": "/rapp11.git/static/css/main.e1ecb8b5.css.map",
-    "main.edc0aa21.js.map": "/rapp11.git/static/js/main.edc0aa21.js.map"
+    "main.css": "/rapp11/static/css/main.e1ecb8b5.css",
+    "main.js": "/rapp11/static/js/main.edc0aa21.js",
+    "index.html": "/rapp11/index.html",
+    "main.e1ecb8b5.css.map": "/rapp11/static/css/main.e1ecb8b5.css.map",
+    "main.edc0aa21.js.map": "/rapp11/static/js/main.edc0aa21.js.map"
   },
   "entrypoints": [
     "static/css/main.e1ecb8b5.css",
