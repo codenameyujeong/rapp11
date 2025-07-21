@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- 
+    파비콘 설정하기(타이틀바의 제목 앞의 아이콘)
+    %PUBLIC_URL% => 빌드시 자동으로 public 폴더의 경로로 치환됨
+     -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 모바일에서 실행될 때의 상단 테마 색 지정 -->
+    <meta name="theme-color" content="#000000" />
+    <!-- 페이지 설명 (검색 엔진, SNS 등에서 사용되는 부분 지정) -->
+    <meta name="description" content="Web site created using create-react-app" />
+    <!-- IOS에서 홈 화면에 앱 추가 시 사용될 아이콘 설정 -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Winterlood의 감정 일기장</title>
+    <!-- 오픈그래프 태그 : 페이스북, 카카오톡 등의 ㅡSNS에 링크를 공유할 때 썸네일, 페이지 제목, 간단한 설명 등도 함께 노출되도록 설정하는 태그를 말함. -->
+     <!-- og:image => 썸네일 이미지 -->
+      <meta property = "og:image" content="%PUBLIC_URL%/thumnail.png" />
+      <!-- og:title => 공유 제목 -->
+       <meta property="og:title" content="감정 일기장" />
+       <!-- og:description => 공유 설명  -->
+        <meta property="og:description" content="나만의 작은 감정 일기장" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
